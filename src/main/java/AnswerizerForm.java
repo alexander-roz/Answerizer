@@ -27,7 +27,7 @@ public class AnswerizerForm extends JDialog {
             try (Scanner scanner = new Scanner(inputTextField.getText())) {
                 String output = scanner.nextLine();
                 String answer = Prediction.getPrediction();
-                String outputText = ("Мой ответ на вопрос \"" + output + "\" : " + answer);
+                String outputText = ("Мой ответ на вопрос \"" + output + "\" : \n" + answer);
                 outputTextArea.setText(outputText);
             } catch (NoSuchElementException exception) {
                 JOptionPane.showMessageDialog(contentPane, "Нет вопроса - нет ответа", "ОШИБКА", JOptionPane.WARNING_MESSAGE);

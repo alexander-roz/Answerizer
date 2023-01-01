@@ -42,7 +42,7 @@
           <enabled value="true"/>
           <font name="Tahoma" size="14" style="1"/>
           <foreground color="-12367780"/>
-          <hideActionText value="true"/>
+          <hideActionText value="false"/>
           <horizontalTextPosition value="0"/>
           <icon value="img/button_img.png"/>
           <text value=""/>
@@ -64,6 +64,7 @@
           <editable value="false"/>
           <font name="Tahoma" size="12" style="3"/>
           <foreground color="-5058305"/>
+          <lineWrap value="true"/>
           <text value=""/>
         </properties>
       </component>
